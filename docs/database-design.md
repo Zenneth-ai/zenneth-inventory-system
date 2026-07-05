@@ -211,3 +211,19 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | description | TEXT | Expense Details |
 | branch_id | BIGINT | Branch |
 | created_at | TIMESTAMP | Expense Date |
+---
+
+## Table: payroll
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| employee_id | BIGINT | Linked Employee |
+| month | VARCHAR(20) | Payroll Month |
+| basic_salary | DECIMAL(10,2) | Basic Salary |
+| overtime | DECIMAL(10,2) | Overtime Pay |
+| allowances | DECIMAL(10,2) | Allowances |
+| deductions | DECIMAL(10,2) | Deductions |
+| net_salary | DECIMAL(10,2) | Net Salary |
+| payment_status | VARCHAR(20) | Paid / Unpaid |
+| created_at | TIMESTAMP | Payment Date |
