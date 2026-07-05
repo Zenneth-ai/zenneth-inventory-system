@@ -1,0 +1,19 @@
+# Color Palette
+
+## Primary Colors
+- Primary Blue: #2563EB
+- Success Green: #16A34A
+- Warning Orange: #F59E0B
+- Danger Red: #DC2626
+
+## Neutral Colors
+- White: #FFFFFF
+- Light Gray: #F3F4F6
+- Dark Gray: #374151
+- Black: #111827
+
+## Usage
+- Blue: Main buttons and navigation
+- Green: Success messages and confirmations
+- Orange: Warnings and low stock alerts
+- Red: Errors and delete actions
