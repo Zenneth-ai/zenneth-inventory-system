@@ -83,3 +83,17 @@ This file contains the default data that will be inserted into the database duri
 | total | DECIMAL(10,2) | Total Amount |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: purchase_items
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| purchase_id | BIGINT | Linked Purchase |
+| product_id | BIGINT | Linked Product |
+| quantity | INT | Quantity Purchased |
+| unit_cost | DECIMAL(10,2) | Buying Price |
+| total | DECIMAL(10,2) | Total Cost |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
