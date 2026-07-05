@@ -124,3 +124,24 @@ This file contains the default data that will be inserted into the database duri
 | reference_number | VARCHAR(100) | Transaction Reference |
 | payment_status | VARCHAR(20) | Paid / Pending |
 | created_at | TIMESTAMP | Payment Date |
+---
+
+## Table: notifications
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| title | VARCHAR(150) | Notification Title |
+| message | TEXT | Notification Message |
+| type | VARCHAR(50) | Info, Warning, Success, Error |
+| user_id | BIGINT | Recipient User |
+| is_read | BOOLEAN | Read Status |
+| created_at | TIMESTAMP | Date Created |
+| updated_at | TIMESTAMP | Date Updated |
+
+### Examples
+- Low Stock Alert
+- New Sale Completed
+- Cylinder Exchange Completed
+- Purchase Received
+- Payment Confirmed
