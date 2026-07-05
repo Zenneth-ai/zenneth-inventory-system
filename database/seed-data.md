@@ -68,3 +68,18 @@ This file contains the default data that will be inserted into the database duri
 - Gas Cookers
 - Valves
 - Accessories
+---
+
+## Table: sale_items
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| sale_id | BIGINT | Linked Sale |
+| product_id | BIGINT | Linked Product |
+| quantity | INT | Quantity Sold |
+| unit_price | DECIMAL(10,2) | Selling Price |
+| discount | DECIMAL(10,2) | Discount |
+| total | DECIMAL(10,2) | Total Amount |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
