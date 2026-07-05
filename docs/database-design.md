@@ -184,3 +184,18 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | total_amount | DECIMAL(10,2) | Total Purchase Cost |
 | status | VARCHAR(20) | Pending / Completed |
 | created_at | TIMESTAMP | Purchase Date |
+---
+
+## Table: employees
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| full_name | VARCHAR(100) | Employee Name |
+| phone | VARCHAR(20) | Phone Number |
+| email | VARCHAR(100) | Email Address |
+| position | VARCHAR(50) | Job Position |
+| salary | DECIMAL(10,2) | Monthly Salary |
+| branch_id | BIGINT | Assigned Branch |
+| status | VARCHAR(20) | Active / Inactive |
+| created_at | TIMESTAMP | Created Date |
