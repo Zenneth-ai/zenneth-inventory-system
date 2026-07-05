@@ -158,3 +158,18 @@ This file contains the default data that will be inserted into the database duri
 | description | TEXT | Action Details |
 | ip_address | VARCHAR(50) | User IP Address |
 | created_at | TIMESTAMP | Date Created |
+---
+
+## Table: expenses
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| expense_category | VARCHAR(100) | Expense Category |
+| amount | DECIMAL(10,2) | Amount |
+| payment_method | VARCHAR(50) | Cash / Bank / M-PESA |
+| description | TEXT | Expense Details |
+| expense_date | DATE | Expense Date |
+| user_id | BIGINT | Recorded By |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
