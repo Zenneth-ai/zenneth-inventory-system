@@ -1,4 +1,4 @@
-# Database Design
+N# Database Design
 
 This document contains the database schema for Zenneth Inventory Management System (ZIMS).
 ## Table: branches
@@ -199,3 +199,15 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | branch_id | BIGINT | Assigned Branch |
 | status | VARCHAR(20) | Active / Inactive |
 | created_at | TIMESTAMP | Created Date |
+---
+
+## Table: expenses
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| category | VARCHAR(100) | Expense Category |
+| amount | DECIMAL(10,2) | Expense Amount |
+| description | TEXT | Expense Details |
+| branch_id | BIGINT | Branch |
+| created_at | TIMESTAMP | Expense Date |
