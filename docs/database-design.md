@@ -171,3 +171,16 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | total_amount | DECIMAL(10,2) | Total Sale Amount |
 | user_id | BIGINT | Salesperson |
 | created_at | TIMESTAMP | Sale Date |
+---
+
+## Table: purchases
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| purchase_number | VARCHAR(50) | Purchase Number |
+| supplier_id | BIGINT | Linked Supplier |
+| branch_id | BIGINT | Linked Branch |
+| total_amount | DECIMAL(10,2) | Total Purchase Cost |
+| status | VARCHAR(20) | Pending / Completed |
+| created_at | TIMESTAMP | Purchase Date |
