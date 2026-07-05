@@ -140,3 +140,20 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | reorder_level | INT | Minimum Stock Level |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: stock_transactions
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| product_id | BIGINT | Linked Product |
+| branch_id | BIGINT | Linked Branch |
+| transaction_type | VARCHAR(20) | Stock In / Stock Out / Exchange / Adjustment |
+| quantity | INT | Quantity Moved |
+| reference_number | VARCHAR(50) | Transaction Reference |
+| supplier_id | BIGINT | Supplier (if Stock In) |
+| customer_id | BIGINT | Customer (if Stock Out) |
+| user_id | BIGINT | User who performed the transaction |
+| remarks | TEXT | Notes |
+| created_at | TIMESTAMP | Transaction Date |
