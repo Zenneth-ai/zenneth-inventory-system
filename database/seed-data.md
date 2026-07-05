@@ -145,3 +145,16 @@ This file contains the default data that will be inserted into the database duri
 - Cylinder Exchange Completed
 - Purchase Received
 - Payment Confirmed
+---
+
+## Table: audit_logs
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| user_id | BIGINT | User who performed the action |
+| action | VARCHAR(100) | Action Performed |
+| module | VARCHAR(100) | Module Affected |
+| description | TEXT | Action Details |
+| ip_address | VARCHAR(50) | User IP Address |
+| created_at | TIMESTAMP | Date Created |
