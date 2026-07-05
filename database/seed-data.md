@@ -97,3 +97,17 @@ This file contains the default data that will be inserted into the database duri
 | total | DECIMAL(10,2) | Total Cost |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: cylinder_exchanges
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| customer_id | BIGINT | Customer |
+| product_id | BIGINT | LPG Product |
+| empty_quantity | INT | Empty Cylinders Returned |
+| full_quantity | INT | Full Cylinders Issued |
+| exchange_fee | DECIMAL(10,2) | Exchange Charge |
+| user_id | BIGINT | Staff Member |
+| created_at | TIMESTAMP | Exchange Date |
