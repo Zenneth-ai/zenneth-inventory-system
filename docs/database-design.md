@@ -81,3 +81,20 @@ This document contains the database schema for Zenneth Inventory Management Syst
 - Wajiko
 - K-Gas
 - Hashi
+---
+
+## Table: products
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| product_name | VARCHAR(100) | Product Name |
+| brand_id | BIGINT | Related Brand |
+| category | VARCHAR(50) | Gas Cylinder / Accessory |
+| cylinder_size | VARCHAR(20) | 6kg, 13kg, 50kg |
+| buying_price | DECIMAL(10,2) | Purchase Price |
+| selling_price | DECIMAL(10,2) | Selling Price |
+| quantity | INT | Current Stock |
+| reorder_level | INT | Minimum Stock |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
