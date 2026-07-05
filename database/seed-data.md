@@ -47,3 +47,24 @@ This file contains the default data that will be inserted into the database duri
 | status | ENUM | Active / Inactive |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: categories
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| category_name | VARCHAR(100) | Category Name |
+| description | TEXT | Category Description |
+| status | ENUM | Active / Inactive |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
+
+### Default Categories
+- LPG Cylinders
+- Regulators
+- Hoses
+- Burners
+- Gas Cookers
+- Valves
+- Accessories
