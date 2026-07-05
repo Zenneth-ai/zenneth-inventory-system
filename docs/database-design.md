@@ -112,3 +112,17 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | address | TEXT | Physical Address |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: customers
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| customer_name | VARCHAR(100) | Customer Name |
+| phone | VARCHAR(20) | Phone Number |
+| email | VARCHAR(100) | Email Address |
+| address | TEXT | Physical Address |
+| customer_type | VARCHAR(20) | Walk-in / Registered |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
