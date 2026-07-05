@@ -126,3 +126,17 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | customer_type | VARCHAR(20) | Walk-in / Registered |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: inventory
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| product_id | BIGINT | Linked Product |
+| branch_id | BIGINT | Linked Branch |
+| full_quantity | INT | Number of Full Cylinders |
+| empty_quantity | INT | Number of Empty Cylinders |
+| reorder_level | INT | Minimum Stock Level |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
