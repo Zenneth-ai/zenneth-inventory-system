@@ -98,3 +98,17 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | reorder_level | INT | Minimum Stock |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: suppliers
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| supplier_name | VARCHAR(100) | Supplier Name |
+| contact_person | VARCHAR(100) | Contact Person |
+| phone | VARCHAR(20) | Phone Number |
+| email | VARCHAR(100) | Email Address |
+| address | TEXT | Physical Address |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
