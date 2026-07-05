@@ -111,3 +111,16 @@ This file contains the default data that will be inserted into the database duri
 | exchange_fee | DECIMAL(10,2) | Exchange Charge |
 | user_id | BIGINT | Staff Member |
 | created_at | TIMESTAMP | Exchange Date |
+---
+
+## Table: payments
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| sale_id | BIGINT | Linked Sale |
+| payment_method | VARCHAR(20) | Cash / M-PESA / Bank |
+| amount | DECIMAL(10,2) | Amount Paid |
+| reference_number | VARCHAR(100) | Transaction Reference |
+| payment_status | VARCHAR(20) | Paid / Pending |
+| created_at | TIMESTAMP | Payment Date |
