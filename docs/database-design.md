@@ -227,3 +227,15 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | net_salary | DECIMAL(10,2) | Net Salary |
 | payment_status | VARCHAR(20) | Paid / Unpaid |
 | created_at | TIMESTAMP | Payment Date |
+---
+
+## Table: activity_logs
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| user_id | BIGINT | User |
+| action | VARCHAR(100) | Action Performed |
+| module | VARCHAR(50) | System Module |
+| description | TEXT | Details |
+| created_at | TIMESTAMP | Date & Time |
