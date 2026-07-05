@@ -63,3 +63,21 @@ This document contains the database schema for Zenneth Inventory Management Syst
 - Salesperson
 - Accountant
 - HR Officer
+---
+
+## Table: brands
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| brand_name | VARCHAR(100) | Brand Name |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
+
+### Initial Brands
+
+- Pro Gas
+- Total
+- Wajiko
+- K-Gas
+- Hashi
