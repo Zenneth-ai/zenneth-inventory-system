@@ -157,3 +157,17 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | user_id | BIGINT | User who performed the transaction |
 | remarks | TEXT | Notes |
 | created_at | TIMESTAMP | Transaction Date |
+---
+
+## Table: sales
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| invoice_number | VARCHAR(50) | Unique Invoice Number |
+| customer_id | BIGINT | Linked Customer |
+| branch_id | BIGINT | Linked Branch |
+| payment_method | VARCHAR(20) | Cash / M-PESA / Bank |
+| total_amount | DECIMAL(10,2) | Total Sale Amount |
+| user_id | BIGINT | Salesperson |
+| created_at | TIMESTAMP | Sale Date |
