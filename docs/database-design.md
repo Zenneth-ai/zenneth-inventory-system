@@ -239,3 +239,17 @@ This document contains the database schema for Zenneth Inventory Management Syst
 | module | VARCHAR(50) | System Module |
 | description | TEXT | Details |
 | created_at | TIMESTAMP | Date & Time |
+---
+
+## Table: settings
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| company_name | VARCHAR(150) | Company Name |
+| company_phone | VARCHAR(20) | Phone Number |
+| company_email | VARCHAR(100) | Email |
+| company_address | TEXT | Address |
+| currency | VARCHAR(10) | Currency |
+| tax_rate | DECIMAL(5,2) | VAT Percentage |
+| updated_at | TIMESTAMP | Last Updated |
