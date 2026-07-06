@@ -189,3 +189,19 @@ This file contains the default data that will be inserted into the database duri
 | status | ENUM | Paid / Pending |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: branches
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| branch_name | VARCHAR(100) | Branch Name |
+| branch_code | VARCHAR(20) | Unique Branch Code |
+| address | TEXT | Branch Address |
+| phone | VARCHAR(20) | Contact Number |
+| email | VARCHAR(100) | Branch Email |
+| manager_id | BIGINT | Branch Manager |
+| status | ENUM | Active / Inactive |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
