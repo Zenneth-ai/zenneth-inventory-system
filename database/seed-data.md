@@ -205,3 +205,19 @@ This file contains the default data that will be inserted into the database duri
 | status | ENUM | Active / Inactive |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: system_settings
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| company_name | VARCHAR(150) | Company Name |
+| company_email | VARCHAR(100) | Company Email |
+| company_phone | VARCHAR(20) | Company Phone |
+| company_address | TEXT | Company Address |
+| currency | VARCHAR(10) | Currency (KES) |
+| tax_rate | DECIMAL(5,2) | Default Tax Rate |
+| logo | VARCHAR(255) | Company Logo |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
