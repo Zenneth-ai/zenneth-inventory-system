@@ -173,3 +173,19 @@ This file contains the default data that will be inserted into the database duri
 | user_id | BIGINT | Recorded By |
 | created_at | TIMESTAMP | Created Date |
 | updated_at | TIMESTAMP | Updated Date |
+---
+
+## Table: payroll
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | BIGINT | Primary Key |
+| employee_id | BIGINT | Linked Employee |
+| basic_salary | DECIMAL(10,2) | Basic Salary |
+| allowances | DECIMAL(10,2) | Allowances |
+| deductions | DECIMAL(10,2) | Deductions |
+| net_salary | DECIMAL(10,2) | Net Salary |
+| payment_date | DATE | Salary Payment Date |
+| status | ENUM | Paid / Pending |
+| created_at | TIMESTAMP | Created Date |
+| updated_at | TIMESTAMP | Updated Date |
