@@ -42,3 +42,25 @@
 - Total Purchases
 - Outstanding Balance
 - Last Purchase
+# ZIMS Customers
+
+## Customer Information
+
+- Customer ID
+- Full Name
+- Phone
+- Email
+- Address
+
+## Actions
+
+- Add Customer
+- Edit
+- Delete
+- View History
+
+## Summary
+
+- Total Purchases
+- Outstanding Balance
+- Last Purchase Date
