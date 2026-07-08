@@ -49,3 +49,33 @@
 
 - Backup Database
 - Restore Database
+# ZIMS Settings
+
+## Company
+
+- Company Name
+- Logo
+- Address
+- Email
+- Phone
+
+## Business
+
+- Business Type
+- Currency
+- Time Zone
+
+## Users
+
+- Roles
+- Permissions
+
+## Backup
+
+- Backup Database
+- Restore Database
+
+## Security
+
+- Password Policy
+- Two-Factor Authentication (Future)
