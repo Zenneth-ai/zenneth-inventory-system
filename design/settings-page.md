@@ -19,3 +19,33 @@
 ## Backup
 - Database Backup
 - Restore Database
+# ZIMS Settings
+
+## Company
+
+- Company Name
+- Logo
+- Address
+- Phone
+- Email
+
+## Business
+
+- Business Type
+- Currency
+- Time Zone
+
+## Users
+
+- Roles
+- Permissions
+
+## Security
+
+- Password Policy
+- Two-Factor Authentication (Future)
+
+## Backup
+
+- Backup Database
+- Restore Database
