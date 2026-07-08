@@ -42,3 +42,25 @@
 - Date
 - Branch
 - Business Type
+# ZIMS Reports
+
+## Reports
+
+- Sales
+- Inventory
+- Purchases
+- Customers
+- Suppliers
+- Profit & Loss
+
+## Export
+
+- PDF
+- Excel
+- CSV
+
+## Filters
+
+- Date
+- Branch
+- Business Type
