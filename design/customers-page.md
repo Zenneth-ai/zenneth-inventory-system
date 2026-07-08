@@ -20,3 +20,25 @@
 - Purchases
 - Payments
 - Returns
+# ZIMS Customers
+
+## Customer Information
+
+- Customer ID
+- Full Name
+- Phone Number
+- Email
+- Address
+
+## Actions
+
+- Add Customer
+- Edit Customer
+- Delete Customer
+- View Purchase History
+
+## Customer Summary
+
+- Total Purchases
+- Outstanding Balance
+- Last Purchase
