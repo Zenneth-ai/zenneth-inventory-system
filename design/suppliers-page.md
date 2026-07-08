@@ -19,3 +19,25 @@
 - Purchases
 - Payments
 - Outstanding Balance
+# ZIMS Suppliers
+
+## Supplier Information
+
+- Supplier ID
+- Company Name
+- Contact Person
+- Phone
+- Email
+- Address
+
+## Actions
+
+- Add Supplier
+- Edit Supplier
+- Delete Supplier
+- Purchase History
+
+## Summary
+
+- Total Purchases
+- Outstanding Balance
