@@ -30,3 +30,37 @@
 - Selling Price
 - Stock Status
 - Last Updated
+# ZIMS Inventory Page
+
+## Dashboard
+
+- Total Stock Value
+- Total Products
+- Low Stock
+- Out of Stock
+
+## Actions
+
+- Stock In
+- Stock Out
+- Stock Adjustment
+- Stock Transfer
+
+## Filters
+
+- Branch
+- Category
+- Supplier
+- Date
+
+## Inventory Table
+
+- Product Image
+- Product Name
+- SKU
+- Barcode
+- Quantity
+- Cost Price
+- Selling Price
+- Reorder Level
+- Status
